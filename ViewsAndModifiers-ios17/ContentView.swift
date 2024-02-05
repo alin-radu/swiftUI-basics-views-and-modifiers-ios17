@@ -1,21 +1,13 @@
-//
-//  ContentView.swift
-//  ViewsAndModifiers-ios17
-//
-//  Created by Alin RADU on 05.02.2024.
-//
+//https://www.youtube.com/watch?v=s22TboJomT4
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var useRedText = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Button("Hello World") {
         }
-        .padding()
     }
 }
 
